@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo;
+package nl.basch.jsonschema2pojo;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;

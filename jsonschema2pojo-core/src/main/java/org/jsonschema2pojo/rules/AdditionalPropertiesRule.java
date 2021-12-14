@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.rules;
+package nl.basch.jsonschema2pojo.rules;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -23,7 +23,7 @@ import java.util.Spliterator;
 import java.util.Spliterators;
 import java.util.stream.StreamSupport;
 
-import org.jsonschema2pojo.Schema;
+import nl.basch.jsonschema2pojo.Schema;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.sun.codemodel.JBlock;

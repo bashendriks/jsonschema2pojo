@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.rules;
+package nl.basch.jsonschema2pojo.rules;
 
 import static java.util.Arrays.*;
 import static org.apache.commons.lang3.StringUtils.*;
-import static org.jsonschema2pojo.rules.PrimitiveTypes.*;
-import static org.jsonschema2pojo.util.TypeUtil.*;
+import static nl.basch.jsonschema2pojo.rules.PrimitiveTypes.*;
+import static nl.basch.jsonschema2pojo.util.TypeUtil.*;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -28,15 +28,15 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import org.jsonschema2pojo.Annotator;
-import org.jsonschema2pojo.RuleLogger;
-import org.jsonschema2pojo.Schema;
-import org.jsonschema2pojo.exception.ClassAlreadyExistsException;
-import org.jsonschema2pojo.exception.GenerationException;
-import org.jsonschema2pojo.model.EnumDefinition;
-import org.jsonschema2pojo.model.EnumDefinitionExtensionType;
-import org.jsonschema2pojo.model.EnumValueDefinition;
-import org.jsonschema2pojo.util.AnnotationHelper;
+import nl.basch.jsonschema2pojo.Annotator;
+import nl.basch.jsonschema2pojo.RuleLogger;
+import nl.basch.jsonschema2pojo.Schema;
+import nl.basch.jsonschema2pojo.exception.ClassAlreadyExistsException;
+import nl.basch.jsonschema2pojo.exception.GenerationException;
+import nl.basch.jsonschema2pojo.model.EnumDefinition;
+import nl.basch.jsonschema2pojo.model.EnumDefinitionExtensionType;
+import nl.basch.jsonschema2pojo.model.EnumValueDefinition;
+import nl.basch.jsonschema2pojo.util.AnnotationHelper;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;

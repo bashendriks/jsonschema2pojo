@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.maven;
+package nl.basch.jsonschema2pojo.maven;
 
 import static org.apache.commons.lang3.ArrayUtils.isEmpty;
 import static org.apache.commons.lang3.StringUtils.*;
@@ -35,19 +35,19 @@ import org.apache.maven.artifact.DependencyResolutionRequiredException;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.project.MavenProject;
-import org.jsonschema2pojo.AllFileFilter;
-import org.jsonschema2pojo.AnnotationStyle;
-import org.jsonschema2pojo.Annotator;
-import org.jsonschema2pojo.AnnotatorFactory;
-import org.jsonschema2pojo.GenerationConfig;
-import org.jsonschema2pojo.InclusionLevel;
-import org.jsonschema2pojo.Jsonschema2Pojo;
-import org.jsonschema2pojo.NoopAnnotator;
-import org.jsonschema2pojo.RuleLogger;
-import org.jsonschema2pojo.SourceSortOrder;
-import org.jsonschema2pojo.SourceType;
-import org.jsonschema2pojo.rules.RuleFactory;
-import org.jsonschema2pojo.util.URLUtil;
+import nl.basch.jsonschema2pojo.AllFileFilter;
+import nl.basch.jsonschema2pojo.AnnotationStyle;
+import nl.basch.jsonschema2pojo.Annotator;
+import nl.basch.jsonschema2pojo.AnnotatorFactory;
+import nl.basch.jsonschema2pojo.GenerationConfig;
+import nl.basch.jsonschema2pojo.InclusionLevel;
+import nl.basch.jsonschema2pojo.Jsonschema2Pojo;
+import nl.basch.jsonschema2pojo.NoopAnnotator;
+import nl.basch.jsonschema2pojo.RuleLogger;
+import nl.basch.jsonschema2pojo.SourceSortOrder;
+import nl.basch.jsonschema2pojo.SourceType;
+import nl.basch.jsonschema2pojo.rules.RuleFactory;
+import nl.basch.jsonschema2pojo.util.URLUtil;
 
 /**
  * When invoked, this goal reads one or more
@@ -294,25 +294,25 @@ public class Jsonschema2PojoMojo extends AbstractMojo implements GenerationConfi
 
     /**
      * A fully qualified class name, referring to a custom annotator class that
-     * implements <code>org.jsonschema2pojo.Annotator</code> and will be used in
+     * implements <code>nl.basch.jsonschema2pojo.Annotator</code> and will be used in
      * addition to the one chosen by <code>annotationStyle</code>.
      * <p>
      * If you want to use the custom annotator alone, set
      * <code>annotationStyle</code> to <code>none</code>.
      *
      * @parameter property="jsonschema2pojo.customAnnotator"
-     *            default-value="org.jsonschema2pojo.NoopAnnotator"
+     *            default-value="nl.basch.jsonschema2pojo.NoopAnnotator"
      * @since 0.3.6
      */
     private String customAnnotator = NoopAnnotator.class.getName();
 
     /**
      * A fully qualified class name, referring to an class that extends
-     * <code>org.jsonschema2pojo.rules.RuleFactory</code> and will be used to
+     * <code>nl.basch.jsonschema2pojo.rules.RuleFactory</code> and will be used to
      * create instances of Rules used for code generation.
      *
      * @parameter property="jsonschema2pojo.customRuleFactory"
-     *            default-value="org.jsonschema2pojo.rules.RuleFactory"
+     *            default-value="nl.basch.jsonschema2pojo.rules.RuleFactory"
      * @since 0.4.5
      */
     private String customRuleFactory = RuleFactory.class.getName();

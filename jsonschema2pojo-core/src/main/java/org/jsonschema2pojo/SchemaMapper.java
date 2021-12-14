@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo;
+package nl.basch.jsonschema2pojo;
 
 import java.io.IOException;
 import java.net.URI;
 import java.net.URL;
 
-import org.jsonschema2pojo.rules.RuleFactory;
+import nl.basch.jsonschema2pojo.rules.RuleFactory;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.DeserializationFeature;

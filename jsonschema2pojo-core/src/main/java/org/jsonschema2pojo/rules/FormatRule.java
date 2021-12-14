@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.rules;
+package nl.basch.jsonschema2pojo.rules;
 
 import static java.lang.String.*;
 import static org.apache.commons.lang.StringUtils.*;
@@ -30,9 +30,9 @@ import org.apache.commons.lang3.ClassUtils;
 import org.joda.time.DateTime;
 import org.joda.time.LocalDate;
 import org.joda.time.LocalTime;
-import org.jsonschema2pojo.GenerationConfig;
-import org.jsonschema2pojo.Schema;
-import org.jsonschema2pojo.exception.GenerationException;
+import nl.basch.jsonschema2pojo.GenerationConfig;
+import nl.basch.jsonschema2pojo.Schema;
+import nl.basch.jsonschema2pojo.exception.GenerationException;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.sun.codemodel.JType;

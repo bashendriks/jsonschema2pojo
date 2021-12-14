@@ -8,7 +8,7 @@
         <version>9</version>
     </parent>
 
-    <groupId>org.jsonschema2pojo</groupId>
+    <groupId>nl.basch.jsonschema2pojo</groupId>
     <artifactId>jsonschema2pojo</artifactId>
     <version>1.1.2-SNAPSHOT</version>
 
@@ -18,11 +18,7 @@
     <url>https://github.com/joelittlejohn/jsonschema2pojo</url>
 
     <modules>
-        <module>jsonschema2pojo-ant</module>
-        <module>jsonschema2pojo-cli</module>
         <module>jsonschema2pojo-core</module>
-        <module>jsonschema2pojo-gradle-plugin</module>
-        <module>jsonschema2pojo-integration-tests</module>
         <module>jsonschema2pojo-maven-plugin</module>
     </modules>
 
@@ -31,12 +27,16 @@
             <name>Joe Littlejohn</name>
             <email>joe.littlejohn@gmail.com</email>
         </developer>
+        <developer>
+            <name>Bas Hendriks</name>
+            <email>bas.hendriks@gmail.com</email>
+        </developer>
     </developers>
 
     <scm>
-        <url>https://github.com/joelittlejohn/jsonschema2pojo</url>
-        <connection>scm:git:git@github.com:joelittlejohn/jsonschema2pojo.git</connection>
-        <developerConnection>scm:git:git@github.com:joelittlejohn/jsonschema2pojo.git</developerConnection>
+        <url>https://github.com/bashendriks/jsonschema2pojo.git</url>
+        <connection>scm:git:git@github.com:bashendriks/jsonschema2pojo.git</connection>
+        <developerConnection>scm:git:git@github.com:bashendriks/jsonschema2pojo.git</developerConnection>
     </scm>
 
     <licenses>

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo;
+package nl.basch.jsonschema2pojo;
 
 import static org.apache.commons.lang3.StringUtils.*;
 
@@ -23,7 +23,7 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 
 import org.apache.commons.lang3.StringUtils;
-import org.jsonschema2pojo.rules.FormatRule;
+import nl.basch.jsonschema2pojo.rules.FormatRule;
 
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonAnySetter;

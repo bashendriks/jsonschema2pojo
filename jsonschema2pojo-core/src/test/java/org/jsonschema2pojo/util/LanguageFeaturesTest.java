@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.util;
+package nl.basch.jsonschema2pojo.util;
 
 import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.Matchers.*;
-import static org.jsonschema2pojo.util.LanguageFeaturesTest.VersionEnum.*;
+import static nl.basch.jsonschema2pojo.util.LanguageFeaturesTest.VersionEnum.*;
 import static org.mockito.Mockito.*;
 
 import java.util.Arrays;
 import java.util.Collection;
 
-import org.jsonschema2pojo.GenerationConfig;
+import nl.basch.jsonschema2pojo.GenerationConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.util;
+package nl.basch.jsonschema2pojo.util;
 
 import static java.lang.Character.*;
 import static javax.lang.model.SourceVersion.*;
 import static org.apache.commons.lang3.StringUtils.*;
 
 import org.apache.commons.lang3.text.WordUtils;
-import org.jsonschema2pojo.GenerationConfig;
+import nl.basch.jsonschema2pojo.GenerationConfig;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.sun.codemodel.JClass;

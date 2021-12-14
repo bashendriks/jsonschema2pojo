@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.rules;
+package nl.basch.jsonschema2pojo.rules;
 
 import java.io.StringWriter;
 import java.util.Collection;
 import java.util.List;
 import java.util.Set;
 
-import org.jsonschema2pojo.GenerationConfig;
-import org.jsonschema2pojo.NoopAnnotator;
-import org.jsonschema2pojo.SchemaStore;
+import nl.basch.jsonschema2pojo.GenerationConfig;
+import nl.basch.jsonschema2pojo.NoopAnnotator;
+import nl.basch.jsonschema2pojo.SchemaStore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -70,7 +70,7 @@ public class DefaultRuleTest {
         final String fieldName = "fieldName";
         when(config.isInitializeCollections()).thenReturn(false);
 
-        JDefinedClass jclass = new JCodeModel()._class("org.jsonschema2pojo.rules.ExampleClass");
+        JDefinedClass jclass = new JCodeModel()._class("nl.basch.jsonschema2pojo.rules.ExampleClass");
         JFieldVar field = jclass.field(JMod.NONE, jclass.owner().ref(fieldTypeClass).narrow(Object.class), fieldName);
         ArrayNode node = new ObjectMapper().createArrayNode();
 
@@ -83,7 +83,7 @@ public class DefaultRuleTest {
     public void whenIsInitializeCollections_true_applyInitializesField() throws JClassAlreadyExistsException {
         when(config.isInitializeCollections()).thenReturn(true);
 
-        JDefinedClass jclass = new JCodeModel()._class("org.jsonschema2pojo.rules.ExampleClass");
+        JDefinedClass jclass = new JCodeModel()._class("nl.basch.jsonschema2pojo.rules.ExampleClass");
         JFieldVar field = jclass.field(JMod.NONE, jclass.owner().ref(fieldTypeClass).narrow(Object.class), "value");
         ArrayNode node = new ObjectMapper().createArrayNode().add(1);
 

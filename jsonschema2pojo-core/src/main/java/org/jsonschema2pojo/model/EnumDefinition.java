@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.model;
+package nl.basch.jsonschema2pojo.model;
 
 import java.util.ArrayList;
 import java.util.Collection;

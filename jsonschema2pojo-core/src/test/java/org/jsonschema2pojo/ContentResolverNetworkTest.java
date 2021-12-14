@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo;
+package nl.basch.jsonschema2pojo;
 
 import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.*;
 import static org.hamcrest.Matchers.*;

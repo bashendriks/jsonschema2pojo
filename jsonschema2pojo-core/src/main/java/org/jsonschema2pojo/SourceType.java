@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo;
+package nl.basch.jsonschema2pojo;
 
 /**
  * The type of input/source documents given to jsonschema2pojo.

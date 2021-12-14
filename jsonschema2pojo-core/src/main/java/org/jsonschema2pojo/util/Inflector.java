@@ -17,7 +17,7 @@
  * and licensed with express permission from the author Chu Yeow Cheah.
  */
 
-package org.jsonschema2pojo.util;
+package nl.basch.jsonschema2pojo.util;
 
 import java.util.ArrayList;
 import java.util.Collections;

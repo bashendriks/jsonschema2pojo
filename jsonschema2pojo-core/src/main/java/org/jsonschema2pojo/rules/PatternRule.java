@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.rules;
+package nl.basch.jsonschema2pojo.rules;
 
 import java.lang.annotation.Annotation;
 
-import org.jsonschema2pojo.Schema;
+import nl.basch.jsonschema2pojo.Schema;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.sun.codemodel.JAnnotationUse;

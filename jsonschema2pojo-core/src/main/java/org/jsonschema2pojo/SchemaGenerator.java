@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo;
+package nl.basch.jsonschema2pojo;
 
 import java.io.IOException;
 import java.net.URL;
 import java.util.Iterator;
 
-import org.jsonschema2pojo.exception.GenerationException;
+import nl.basch.jsonschema2pojo.exception.GenerationException;
 
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonParser;

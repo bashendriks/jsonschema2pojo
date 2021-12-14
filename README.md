@@ -1,4 +1,4 @@
-# jsonschema2pojo [![Build Status](https://github.com/joelittlejohn/jsonschema2pojo/actions/workflows/ci.yml/badge.svg)](https://github.com/joelittlejohn/jsonschema2pojo/actions/workflows/ci.yml) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.jsonschema2pojo/jsonschema2pojo/badge.svg)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.jsonschema2pojo%22)
+# jsonschema2pojo [![Build Status](https://github.com/joelittlejohn/jsonschema2pojo/actions/workflows/ci.yml/badge.svg)](https://github.com/joelittlejohn/jsonschema2pojo/actions/workflows/ci.yml) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/nl.basch.jsonschema2pojo/jsonschema2pojo/badge.svg)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22nl.basch.jsonschema2pojo%22)
 
 _jsonschema2pojo_ generates Java types from JSON Schema (or example JSON) and can annotate those types for data-binding with Jackson 2.x or Gson.
 
@@ -9,7 +9,7 @@ You can use jsonschema2pojo as a Maven plugin, an Ant task, a command line utili
 A very simple Maven example:
 ```xml
 <plugin>
-    <groupId>org.jsonschema2pojo</groupId>
+    <groupId>nl.basch.jsonschema2pojo</groupId>
     <artifactId>jsonschema2pojo-maven-plugin</artifactId>
     <version>1.1.1</version>
     <configuration>

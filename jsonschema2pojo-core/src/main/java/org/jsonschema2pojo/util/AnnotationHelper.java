@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.util;
+package nl.basch.jsonschema2pojo.util;
 
 import com.sun.codemodel.JAnnotationUse;
 import com.sun.codemodel.JClass;

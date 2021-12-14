@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.rules;
+package nl.basch.jsonschema2pojo.rules;
 
 import static com.sun.codemodel.JExpr.*;
 import static com.sun.codemodel.JMod.*;
@@ -22,9 +22,9 @@ import static com.sun.codemodel.JMod.*;
 import java.util.Iterator;
 import java.util.Map;
 
-import org.jsonschema2pojo.Schema;
-import org.jsonschema2pojo.util.LanguageFeatures;
-import org.jsonschema2pojo.util.Models;
+import nl.basch.jsonschema2pojo.Schema;
+import nl.basch.jsonschema2pojo.util.LanguageFeatures;
+import nl.basch.jsonschema2pojo.util.Models;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.sun.codemodel.JBlock;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.rules;
+package nl.basch.jsonschema2pojo.rules;
 
 import static java.util.Arrays.asList;
 import static org.hamcrest.MatcherAssert.*;
@@ -24,8 +24,8 @@ import static org.mockito.Mockito.*;
 import java.lang.annotation.Annotation;
 import java.util.Collection;
 
-import org.jsonschema2pojo.GenerationConfig;
-import org.jsonschema2pojo.Schema;
+import nl.basch.jsonschema2pojo.GenerationConfig;
+import nl.basch.jsonschema2pojo.Schema;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;

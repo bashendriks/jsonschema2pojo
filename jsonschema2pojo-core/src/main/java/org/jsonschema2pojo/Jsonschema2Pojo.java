@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo;
+package nl.basch.jsonschema2pojo;
 
 import static org.apache.commons.lang3.StringUtils.*;
 
@@ -31,10 +31,10 @@ import java.util.Iterator;
 import java.util.List;
 
 import org.apache.commons.io.FilenameUtils;
-import org.jsonschema2pojo.exception.GenerationException;
-import org.jsonschema2pojo.rules.RuleFactory;
-import org.jsonschema2pojo.util.NameHelper;
-import org.jsonschema2pojo.util.URLUtil;
+import nl.basch.jsonschema2pojo.exception.GenerationException;
+import nl.basch.jsonschema2pojo.rules.RuleFactory;
+import nl.basch.jsonschema2pojo.util.NameHelper;
+import nl.basch.jsonschema2pojo.util.URLUtil;
 
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import com.sun.codemodel.CodeWriter;

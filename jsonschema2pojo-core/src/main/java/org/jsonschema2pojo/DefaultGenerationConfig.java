@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo;
+package nl.basch.jsonschema2pojo;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -24,7 +24,7 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.Map;
 
-import org.jsonschema2pojo.rules.RuleFactory;
+import nl.basch.jsonschema2pojo.rules.RuleFactory;
 
 /**
  * A generation config that returns default values for all behavioural options.

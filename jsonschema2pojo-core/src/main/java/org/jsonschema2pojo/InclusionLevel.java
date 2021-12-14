@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo;
+package nl.basch.jsonschema2pojo;
 
 /**
  * The level of inclusion to be set for generated java types (to control level of inclusion in case of

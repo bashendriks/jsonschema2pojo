@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.util;
+package nl.basch.jsonschema2pojo.util;
 
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.model;
+package nl.basch.jsonschema2pojo.model;
 
 public enum EnumDefinitionExtensionType {
 
@@ -35,7 +35,7 @@ public enum EnumDefinitionExtensionType {
 
     /**
      * Enum defined by JSON Schema and a custom jsonschema2pojo extension,
-     * defined by custom {@link org.jsonschema2pojo.rules.EnumRule} implementation provided by custom {@link org.jsonschema2pojo.rules.RuleFactory}.
+     * defined by custom {@link nl.basch.jsonschema2pojo.rules.EnumRule} implementation provided by custom {@link nl.basch.jsonschema2pojo.rules.RuleFactory}.
      */
     CUSTOM
 }

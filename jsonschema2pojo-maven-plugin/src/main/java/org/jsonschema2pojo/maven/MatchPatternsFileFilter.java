@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.maven;
+package nl.basch.jsonschema2pojo.maven;
 
 import static java.lang.String.*;
 import static java.util.Arrays.*;

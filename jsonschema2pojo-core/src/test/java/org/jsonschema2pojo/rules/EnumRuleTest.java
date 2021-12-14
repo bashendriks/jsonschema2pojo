@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.rules;
+package nl.basch.jsonschema2pojo.rules;
 
 import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.Matchers.*;
 import static org.mockito.ArgumentMatchers.*;
 import static org.mockito.Mockito.*;
 
-import org.jsonschema2pojo.Annotator;
-import org.jsonschema2pojo.RuleLogger;
-import org.jsonschema2pojo.Schema;
-import org.jsonschema2pojo.util.NameHelper;
+import nl.basch.jsonschema2pojo.Annotator;
+import nl.basch.jsonschema2pojo.RuleLogger;
+import nl.basch.jsonschema2pojo.Schema;
+import nl.basch.jsonschema2pojo.util.NameHelper;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Matchers;
@@ -83,8 +83,8 @@ public class EnumRuleTest {
         JType result1 = rule.apply("status", enumNode, null, jpackage, schema);
         JType result2 = rule.apply("status", enumNode, null, jpackage, schema);
 
-        assertThat(result1.fullName(), is("org.jsonschema2pojo.rules.Status"));
-        assertThat(result2.fullName(), is("org.jsonschema2pojo.rules.Status_"));
+        assertThat(result1.fullName(), is("nl.basch.jsonschema2pojo.rules.Status"));
+        assertThat(result2.fullName(), is("nl.basch.jsonschema2pojo.rules.Status_"));
     }
 
     private static class FirstArgAnswer<T> implements Answer<T> {

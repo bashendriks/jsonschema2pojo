@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.rules;
+package nl.basch.jsonschema2pojo.rules;
 
-import org.jsonschema2pojo.Annotator;
-import org.jsonschema2pojo.DefaultGenerationConfig;
-import org.jsonschema2pojo.GenerationConfig;
-import org.jsonschema2pojo.Jackson2Annotator;
-import org.jsonschema2pojo.RuleLogger;
-import org.jsonschema2pojo.SchemaStore;
-import org.jsonschema2pojo.util.NameHelper;
-import org.jsonschema2pojo.util.ParcelableHelper;
-import org.jsonschema2pojo.util.ReflectionHelper;
+import nl.basch.jsonschema2pojo.Annotator;
+import nl.basch.jsonschema2pojo.DefaultGenerationConfig;
+import nl.basch.jsonschema2pojo.GenerationConfig;
+import nl.basch.jsonschema2pojo.Jackson2Annotator;
+import nl.basch.jsonschema2pojo.RuleLogger;
+import nl.basch.jsonschema2pojo.SchemaStore;
+import nl.basch.jsonschema2pojo.util.NameHelper;
+import nl.basch.jsonschema2pojo.util.ParcelableHelper;
+import nl.basch.jsonschema2pojo.util.ReflectionHelper;
 
 import com.sun.codemodel.JClass;
 import com.sun.codemodel.JClassContainer;

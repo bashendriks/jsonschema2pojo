@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.rules;
+package nl.basch.jsonschema2pojo.rules;
 
 import java.lang.annotation.Annotation;
 import java.util.ArrayList;
@@ -23,7 +23,7 @@ import java.util.List;
 
 import javax.annotation.Nonnull;
 
-import org.jsonschema2pojo.Schema;
+import nl.basch.jsonschema2pojo.Schema;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.sun.codemodel.JDefinedClass;

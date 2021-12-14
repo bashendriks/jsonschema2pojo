@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.util;
+package nl.basch.jsonschema2pojo.util;
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -23,7 +23,7 @@ import java.net.URISyntaxException;
 import java.net.URL;
 
 import org.apache.commons.lang.StringUtils;
-import org.jsonschema2pojo.URLProtocol;
+import nl.basch.jsonschema2pojo.URLProtocol;
 
 public class URLUtil {
 

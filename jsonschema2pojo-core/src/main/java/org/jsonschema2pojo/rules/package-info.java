@@ -18,4 +18,4 @@
  * Provides the schema rules which can be 'applied' to perform the code
  * generation steps associated with JSON schema nodes
  */
-package org.jsonschema2pojo.rules;
+package nl.basch.jsonschema2pojo.rules;

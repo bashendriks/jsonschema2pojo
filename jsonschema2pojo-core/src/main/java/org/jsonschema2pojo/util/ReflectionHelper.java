@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.util;
+package nl.basch.jsonschema2pojo.util;
 
-import static org.jsonschema2pojo.util.TypeUtil.*;
+import static nl.basch.jsonschema2pojo.util.TypeUtil.*;
 
 import java.lang.reflect.Modifier;
 import java.util.Collection;
@@ -27,8 +27,8 @@ import java.util.Spliterator;
 import java.util.Spliterators;
 import java.util.stream.StreamSupport;
 
-import org.jsonschema2pojo.Schema;
-import org.jsonschema2pojo.rules.RuleFactory;
+import nl.basch.jsonschema2pojo.Schema;
+import nl.basch.jsonschema2pojo.rules.RuleFactory;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.sun.codemodel.JClass;

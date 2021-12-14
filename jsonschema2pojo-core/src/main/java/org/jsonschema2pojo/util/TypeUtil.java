@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.util;
+package nl.basch.jsonschema2pojo.util;
 
 import java.util.List;
 
-import org.jsonschema2pojo.exception.GenerationException;
+import nl.basch.jsonschema2pojo.exception.GenerationException;
 
 import com.sun.codemodel.JClass;
 import com.sun.codemodel.JClassContainer;

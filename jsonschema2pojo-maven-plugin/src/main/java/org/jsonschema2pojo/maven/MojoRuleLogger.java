@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.maven;
+package nl.basch.jsonschema2pojo.maven;
 
 import org.apache.maven.plugin.logging.Log;
-import org.jsonschema2pojo.AbstractRuleLogger;
+import nl.basch.jsonschema2pojo.AbstractRuleLogger;
 
 public class MojoRuleLogger extends AbstractRuleLogger {
   private final Log log;

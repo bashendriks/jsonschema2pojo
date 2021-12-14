@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.rules;
+package nl.basch.jsonschema2pojo.rules;
 
 import java.beans.ConstructorProperties;
 import java.util.ArrayList;
@@ -28,10 +28,10 @@ import java.util.Map.Entry;
 import java.util.Objects;
 import java.util.Set;
 
-import org.jsonschema2pojo.GenerationConfig;
-import org.jsonschema2pojo.Schema;
-import org.jsonschema2pojo.util.NameHelper;
-import org.jsonschema2pojo.util.ReflectionHelper;
+import nl.basch.jsonschema2pojo.GenerationConfig;
+import nl.basch.jsonschema2pojo.Schema;
+import nl.basch.jsonschema2pojo.util.NameHelper;
+import nl.basch.jsonschema2pojo.util.ReflectionHelper;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.sun.codemodel.JAnnotationArrayMember;

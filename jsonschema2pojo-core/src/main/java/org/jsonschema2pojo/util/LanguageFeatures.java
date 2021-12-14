@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.util;
+package nl.basch.jsonschema2pojo.util;
 
 import static java.util.Arrays.*;
 
 import java.util.Collection;
 
-import org.jsonschema2pojo.GenerationConfig;
+import nl.basch.jsonschema2pojo.GenerationConfig;
 
 public class LanguageFeatures {
 

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo;
+package nl.basch.jsonschema2pojo;
 
 import static org.hamcrest.Matchers.*;
-import static org.jsonschema2pojo.AnnotationStyle.*;
+import static nl.basch.jsonschema2pojo.AnnotationStyle.*;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 

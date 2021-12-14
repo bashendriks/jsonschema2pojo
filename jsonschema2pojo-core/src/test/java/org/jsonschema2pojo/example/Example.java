@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.example;
+package nl.basch.jsonschema2pojo.example;
 
 import java.io.IOException;
 import java.net.URL;
 import java.nio.file.Files;
 
-import org.jsonschema2pojo.DefaultGenerationConfig;
-import org.jsonschema2pojo.GenerationConfig;
-import org.jsonschema2pojo.Jackson2Annotator;
-import org.jsonschema2pojo.SchemaGenerator;
-import org.jsonschema2pojo.SchemaMapper;
-import org.jsonschema2pojo.SchemaStore;
-import org.jsonschema2pojo.rules.RuleFactory;
+import nl.basch.jsonschema2pojo.DefaultGenerationConfig;
+import nl.basch.jsonschema2pojo.GenerationConfig;
+import nl.basch.jsonschema2pojo.Jackson2Annotator;
+import nl.basch.jsonschema2pojo.SchemaGenerator;
+import nl.basch.jsonschema2pojo.SchemaMapper;
+import nl.basch.jsonschema2pojo.SchemaStore;
+import nl.basch.jsonschema2pojo.rules.RuleFactory;
 
 import com.sun.codemodel.JCodeModel;
 

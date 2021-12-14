@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.rules;
+package nl.basch.jsonschema2pojo.rules;
 
 import static com.sun.codemodel.JMod.*;
 import static org.hamcrest.MatcherAssert.*;
@@ -43,12 +43,12 @@ public class DynamicPropertiesRuleTest {
 
     @Before
     public void setUp() throws JClassAlreadyExistsException {
-        type = codeModel._class("org.jsonschema2pojo.rules.ExampleClass");
+        type = codeModel._class("nl.basch.jsonschema2pojo.rules.ExampleClass");
         numberGetter = type.method(PUBLIC, codeModel._ref(Integer.class), "getNumber");
         numberSetter = type.method(PUBLIC, codeModel._ref(Integer.class), "setNumber");
         numberSetter.param(codeModel._ref(Integer.class), "value");
 
-        type2 = codeModel._class("org.jsonschema2pojo.rules.ExampleParentClass");
+        type2 = codeModel._class("nl.basch.jsonschema2pojo.rules.ExampleParentClass");
 
         factory = new RuleFactory();
         rule = new DynamicPropertiesRule(factory);

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.exception;
+package nl.basch.jsonschema2pojo.exception;
 
 /**
  * Represents an unexpected error during Java code generation.

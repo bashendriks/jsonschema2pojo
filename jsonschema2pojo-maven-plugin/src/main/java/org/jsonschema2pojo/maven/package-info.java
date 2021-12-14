@@ -18,4 +18,4 @@
  * Provides the classes specifically associated with the Maven plugin for 
  * jsonschema2pojo 
  */
-package org.jsonschema2pojo.maven;
+package nl.basch.jsonschema2pojo.maven;

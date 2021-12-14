@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.rules;
+package nl.basch.jsonschema2pojo.rules;
 
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
-import org.jsonschema2pojo.DefaultGenerationConfig;
-import org.jsonschema2pojo.GenerationConfig;
-import org.jsonschema2pojo.NoopAnnotator;
-import org.jsonschema2pojo.RuleLogger;
-import org.jsonschema2pojo.SchemaStore;
+import nl.basch.jsonschema2pojo.DefaultGenerationConfig;
+import nl.basch.jsonschema2pojo.GenerationConfig;
+import nl.basch.jsonschema2pojo.NoopAnnotator;
+import nl.basch.jsonschema2pojo.RuleLogger;
+import nl.basch.jsonschema2pojo.SchemaStore;
 import org.junit.Test;
 
 public class RuleFactoryImplTest {

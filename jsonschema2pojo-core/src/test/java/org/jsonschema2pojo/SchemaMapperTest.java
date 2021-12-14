@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo;
+package nl.basch.jsonschema2pojo;
 
 import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.Matchers.*;
@@ -25,8 +25,8 @@ import java.io.IOException;
 import java.net.URL;
 
 import org.apache.commons.io.IOUtils;
-import org.jsonschema2pojo.rules.RuleFactory;
-import org.jsonschema2pojo.rules.SchemaRule;
+import nl.basch.jsonschema2pojo.rules.RuleFactory;
+import nl.basch.jsonschema2pojo.rules.SchemaRule;
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;
 import org.mockito.Mockito;

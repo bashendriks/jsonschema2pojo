@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.rules;
+package nl.basch.jsonschema2pojo.rules;
 
 import static org.apache.commons.lang3.StringUtils.*;
-import static org.jsonschema2pojo.rules.PrimitiveTypes.*;
-import static org.jsonschema2pojo.util.TypeUtil.*;
+import static nl.basch.jsonschema2pojo.rules.PrimitiveTypes.*;
+import static nl.basch.jsonschema2pojo.util.TypeUtil.*;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -27,15 +27,15 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-import org.jsonschema2pojo.AnnotationStyle;
-import org.jsonschema2pojo.Annotator;
-import org.jsonschema2pojo.Schema;
-import org.jsonschema2pojo.exception.ClassAlreadyExistsException;
-import org.jsonschema2pojo.exception.GenerationException;
-import org.jsonschema2pojo.util.ParcelableHelper;
-import org.jsonschema2pojo.util.ReflectionHelper;
-import org.jsonschema2pojo.util.SerializableHelper;
-import org.jsonschema2pojo.util.AnnotationHelper;
+import nl.basch.jsonschema2pojo.AnnotationStyle;
+import nl.basch.jsonschema2pojo.Annotator;
+import nl.basch.jsonschema2pojo.Schema;
+import nl.basch.jsonschema2pojo.exception.ClassAlreadyExistsException;
+import nl.basch.jsonschema2pojo.exception.GenerationException;
+import nl.basch.jsonschema2pojo.util.ParcelableHelper;
+import nl.basch.jsonschema2pojo.util.ReflectionHelper;
+import nl.basch.jsonschema2pojo.util.SerializableHelper;
+import nl.basch.jsonschema2pojo.util.AnnotationHelper;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.sun.codemodel.ClassType;

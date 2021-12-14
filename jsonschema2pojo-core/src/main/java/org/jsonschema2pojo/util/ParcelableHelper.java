@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.util;
+package nl.basch.jsonschema2pojo.util;
 
 import static org.apache.commons.lang3.StringUtils.*;
-import static org.jsonschema2pojo.util.Models.*;
+import static nl.basch.jsonschema2pojo.util.Models.*;
 
 import com.sun.codemodel.JClass;
 import com.sun.codemodel.JDefinedClass;

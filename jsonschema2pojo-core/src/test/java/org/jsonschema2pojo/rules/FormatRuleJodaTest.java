@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.rules;
+package nl.basch.jsonschema2pojo.rules;
 
 import static java.util.Arrays.*;
 import static org.hamcrest.Matchers.*;
@@ -26,9 +26,9 @@ import java.util.Collection;
 import org.joda.time.DateTime;
 import org.joda.time.LocalDate;
 import org.joda.time.LocalTime;
-import org.jsonschema2pojo.GenerationConfig;
-import org.jsonschema2pojo.NoopAnnotator;
-import org.jsonschema2pojo.SchemaStore;
+import nl.basch.jsonschema2pojo.GenerationConfig;
+import nl.basch.jsonschema2pojo.NoopAnnotator;
+import nl.basch.jsonschema2pojo.SchemaStore;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

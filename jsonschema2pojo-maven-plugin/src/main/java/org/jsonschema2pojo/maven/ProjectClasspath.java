@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jsonschema2pojo.maven;
+package nl.basch.jsonschema2pojo.maven;
 
 import java.io.File;
 import java.net.MalformedURLException;
